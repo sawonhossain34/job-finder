@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600;700&family=Fira+Code:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background:white;
+}
+li{
+  list-style: none;
+  cursor:pointer;
+  position:relative;
+}
+li:hover::before{
+  position: absolute;
+  content:'';
+  height: 4px;
+  width: 100%;
+  background:#2a68ff;
+  bottom: -10px;
+  right:0;
+  color:#2a68ff;
+}
+/* .icon{
+  cursor:pointer;
+} */
+/* .card{
+  background:#000;
+} */
