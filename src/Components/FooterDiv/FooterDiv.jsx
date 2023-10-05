@@ -1,8 +1,9 @@
 
+
 const FooterDiv = () => {
     return (
         <div>
-            footer
+            <h1>Footer div</h1>
         </div>
     );
 };
